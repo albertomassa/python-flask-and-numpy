@@ -3,9 +3,18 @@
 
 A very simple exercise with Python Flask and Numpy
 
-### -------------------------
+## Virtual ENV - configuration - 
+
+```
+virtualenv env
+source env/bin/activate/
+deactivate
+
+pip freeze
+pip freeze > requirements.txt
+pip install -r requirements.txt
+```
 ## Application RUN
-### -------------------------
 
 ### Linux and MacOS
 ```
@@ -30,7 +39,7 @@ $ flask run
 
 ### Docker Container
 ```
-todo 
+ 
 ```
 
 ## Versioning
