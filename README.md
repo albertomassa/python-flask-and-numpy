@@ -39,7 +39,13 @@ $ flask run
 
 ### Docker Container
 ```
- 
+ docker build --tag python-flask-numpy .
+ docker images
+ docker run -d -p 5000:5000 --name python-rest-numpy python-flask-numpy
+
+ docker stop python-rest-numpy
+ docker rm python-rest-numpy
+ docker rmi python-flask-numpy
 ```
 
 ## Versioning
